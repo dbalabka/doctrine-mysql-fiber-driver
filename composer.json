@@ -1,0 +1,16 @@
+{
+    "name": "dbalabka/doctrine-mysql-fiber-driver",
+    "description": "Driver for Doctrine that integrates Amphp MySQL library and Fibers",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "amphp/mysql": "^3-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Balabka",
+            "email": "dmitry.balabka@gmail.com"
+        }
+    ]
+}
