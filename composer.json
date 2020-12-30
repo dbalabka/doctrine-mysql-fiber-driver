@@ -4,7 +4,8 @@
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "amphp/mysql": "^3-dev"
+        "amphp/mysql": "^3-dev",
+        "doctrine/dbal": "^2.12"
     },
     "license": "MIT",
     "authors": [
@@ -12,5 +13,10 @@
             "name": "Dmitry Balabka",
             "email": "dmitry.balabka@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Doctrine\\DBAL\\Driver\\MysqlAsync\\": "src/"
+        }
+    }
 }
